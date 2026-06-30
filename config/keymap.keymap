@@ -31,11 +31,11 @@
 
         layer_1 {
             bindings = <
-&to 0   &trans  &trans  &trans     &trans     &trans                              &trans    &trans             &trans           &trans     &trans    &trans
-&trans  &trans  &trans  &trans     &trans     &trans                              &trans    &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans     &trans    &trans
-&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &kp PAGE_UP    &mkp LCLK  &kp HOME  &mkp MB4  &mkp LCLK          &mkp RCLK        &mkp MCLK  &mkp MB5  &trans
-&trans  &trans  &trans  &trans     &trans     &kp PAGE_DOWN  &mkp RCLK  &kp END   &trans    &trans             &trans           &trans     &trans    &trans
-&trans  &trans  &trans  &trans     &trans     &trans         &trans     &trans    &trans    &trans             &trans           &trans     &trans    &trans
+&to 0   &trans  &trans  &trans     &trans     &trans                               &trans    &trans             &trans           &trans     &trans    &trans
+&trans  &trans  &trans  &trans     &trans     &trans                               &trans    &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans     &trans    &trans
+&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &lt 5 G        &mkp LCLK  &mkp RCLK  &mkp MB4  &mkp LCLK          &mkp RCLK        &mkp MCLK  &mkp MB5  &trans
+&trans  &trans  &trans  &trans     &trans     &kp PAGE_DOWN  &kp HOME   &kp END    &trans    &trans             &trans           &trans     &trans    &trans
+&trans  &trans  &trans  &trans     &trans     &trans         &trans     &trans     &trans    &trans             &trans           &trans     &trans    &trans
             >;
         };
 
